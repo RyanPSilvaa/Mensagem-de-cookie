@@ -4,8 +4,8 @@ function aceitar(){
     localStorage.lgpd = "sim"
     msgCokies.classList.remove('mostrar')
 }
-if(localStorage.lgpd == 'sim'){
+if (localStorage.lgpd == 'sim'){
     msgCokies.classList.remove('mostrar')
-}else{
+} else {
     msgCokies.classList.add('mostrar')
 }
