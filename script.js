@@ -1,11 +1,11 @@
 let msgCokies = document.getElementById('cookies-txt');
 
-function aceitar(){
+function func_aceitar(){
     localStorage.lgpd = "sim"
-    msgCokies.classList.remove('mostrar')
-}
-if (localStorage.lgpd == "sim"){
-    msgCokies.classList.remove('mostrar')
+    msgCokies.classList.remove("mostrar");
+
+if (localStorage.lgpd == 'sim'){
+    msgCokies.classList.remove("mostrar")
 } else {
-    msgCokies.classList.add('mostrar')
+    msgCokies.classList.add("mostrar") }
 }
